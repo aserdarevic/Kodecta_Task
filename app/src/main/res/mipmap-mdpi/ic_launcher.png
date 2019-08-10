@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.companion.AssociationRequest.Builder android.companion.AssociationRequest build()">
+    <annotation name="android.support.annotation.NonNull" />
+  </item>
+  <item name="android.companion.AssociationRequest.Builder android.companion.AssociationRequest.Builder addDeviceFilter(android.companion.DeviceFilter&lt;?&gt;)">
+    <annotation name="android.support.annotation.NonNull" />
+  </item>
+  <item name="android.companion.AssociationRequest.Builder android.companion.AssociationRequest.Builder addDeviceFilter(android.companion.DeviceFilter&lt;?&gt;) 0">
+    <annotation name="android.support.annotation.Nullable" />
+  </item>
+  <item name="android.companion.AssociationRequest.Builder android.companion.AssociationRequest.Builder setSingleDevice(boolean)">
+    <annotation name="android.support.annotation.NonNull" />
+  </item>
+  <item name="android.companion.BluetoothDeviceFilter.Builder android.companion.BluetoothDeviceFilter build()">
+    <annotation name="android.support.annotation.NonNull" />
+  </item>
+  <item name="android.companion.BluetoothDeviceFilter.Builder android.companion.BluetoothDeviceFilter.Builder addServiceUuid(android.os.ParcelUuid, android.os.ParcelUuid)">
+    <annotation name="android.support.annotation.NonNull" />
+  </item>
+  <item name="android.companion.BluetoothDeviceFilter.Builder android.companion.BluetoothDeviceFilter.Builder addServiceUuid(android.os.ParcelUuid, android.os.ParcelUuid) 0">
+    <annotation name="android.support.annotation.Nullable" />
+  </item>
+  <item name="android.companion.BluetoothDeviceFilter.Builder android.companion.BluetoothDeviceFilter.Builder addServiceUuid(android.os.ParcelUuid, android.os.ParcelUuid) 1">
+    <annotation name="android.support.annotation.Nullable" />
+  </item>
+  <item name="android.companion.BluetoothDeviceFilter.Builder android.companion.BluetoothDeviceFilter.Builder setAddress(java.lang.String)">
+    <annotation name="android.support.annotation.NonNull" />
+  </item>
+  <item name="android.companion

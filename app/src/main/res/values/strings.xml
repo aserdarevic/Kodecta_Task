@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">KodectaTask</string>
+    <string name="meal_plan">Meal plan</string>
+    <string name="nachste_meal">Nächste Malzeit</string>
+    <string name="meal_desc">Gebackene Hähnchenschegel mit PommesFrites und Mischgemuse mit Apfel\n<b>Dessert:</b> Frankfurter Kranz</string>
+    <string name="therapy_plan"><b>Therapy plan</b></string>
+    <string name="heute"><b>Heute</b></string>
+    <string name="time1"><b>09:30</b></string>
+    <string name="therapy1"><b>Physiotherapy</b>\nRaum 505, Block F</string>
+    <string name="time2"><b>10:30</b></string>
+    <string name="therapy2"><b>Jogging</b>\nRaum 3200, Block F</string>
+    <string name="time3"><b>15:00</b></string>
+    <string name="therapy3"><b>Physiotherapy</b>\nRaum 2141, Pavilion 25</string>
+    <string name="therapy_duration"><b>Therapy duration</b></string>
+    <string name="to"><b> to </b></string>
+    <string name="doctor"><b>Dr. Amil Topuz</b>\nHead Physician</string>
+    <string name="wellcome_message"><b>Hello Michael,\n</b>we wish you a very pleasant stay. Please take a look on your checklist to not forget anything important.</string>
+    <string name="dismiss_message">Dismiss</string>
+    <string name="view_check_message">View checklist</string>
+    <string name="myclinic"><b>My Clinic</b></string>
+    <string name="checkin"><b>Check-in</b></string>
+    <string name="checkout"><b>Check-out</b></string>
+    <string name="medicalcenter"><b>Medical Center</b></string>
+    <string name="sarajevo"> - Sarajevo</string>
+    <string name="descr_medic_center">Rehabilitationsklinik für Orthopädie\nund Geriatrie</string>
+    <string name="call_clinic"><b>Call Clinic</b></string>
+    <string name="questionaries"><b>Questionaries</b></string>
+    <string name="anamnesis"><b>Anamnesis</b></string>
+    <string name="answers">Answers</string>
+    <string name="feedback"><b>Feedback</b></string>
+
+</resources>

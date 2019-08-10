@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appBackground"
+    tools:context=".MainActivity"
+    >
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/main_toolbar"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="75dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/wellcome"
+                layout="@layout/wellcome_message_layout"
+
+                />
+
+            <include
+                android:id="@+id/therapyy"
+                layout="@layout/therapy_plan" />
+
+            <include
+                android:id="@+id/mealplan"
+                layout="@layout/meal_plan" />
+
+            <include
+                android:id="@+id/myclinic"
+                layout="@layout/my_clinic_layout" />
+
+            <include
+                android:id="@+id/myprogress"
+                layout="@layout/questionarires_layout" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_weight="0"
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/bottom_menu"
+        app:labelVisibilityMode="labeled"
+
+
+        />
+
+</LinearLayout>

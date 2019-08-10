@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/vrijeme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="09:30"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Physiotheraphy"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/vrijeme"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raum 505, Block F"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/ter1"
+        app:layout_constraintTop_toBottomOf="@+id/ter1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
